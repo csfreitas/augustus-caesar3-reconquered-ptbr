@@ -4,12 +4,23 @@ Pré-release comunitária da tradução brasileira de 20 missões do Reconquered
 **É um candidato técnico: a revisão completa das missões dentro do jogo ainda
 está pendente. Não é uma versão oficial do Reconquered ou do Augustus.**
 
+## For translators working on other languages
+
+See the **[English translator guide](docs/TRANSLATORS_GUIDE.md)** for compatible
+Claudius downloads, locale configuration, text/metadata/imperial-name XML,
+narration and music, packaging, installation, removal and validation.
+The PT-BR installer below is not a generic installer for other languages.
+
 ## Compatibilidade obrigatória
 
 Use **Claudius no commit `26e0508921bcb1c01166fc683a59fb1917fa2426` ou um
 build que incorpore suporte equivalente** a mensagens localizadas, mídia nativa,
 metadados de campanha/cenários e nomes imperiais de apresentação.
 O commit de referência está no [fork do Augustus](https://github.com/csfreitas/augustus/commit/26e0508921bcb1c01166fc683a59fb1917fa2426).
+
+Download compatível para Windows x64: [Claudius v0.1.0-alpha.2](https://github.com/csfreitas/augustus/releases/tag/claudius-v0.1.0-alpha.2).
+O ZIP Windows inclui os assets correspondentes; leia os pré-requisitos e avisos
+de perfil compartilhado antes de executar. Extrair em outra pasta não isola os saves.
 
 A PR #1893 isolada e o Claudius `v0.1.0-alpha.1` não bastam para o conjunto desta
 RC3. Não foi estabelecida compatibilidade completa com o Augustus estável.

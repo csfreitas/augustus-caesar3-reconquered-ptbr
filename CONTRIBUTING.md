@@ -4,6 +4,11 @@ Obrigado por testar a localização brasileira do Reconquered.
 
 ## Relatos de teste
 
+For a translation into another language, start with the
+[English translator guide](docs/TRANSLATORS_GUIDE.md). It explains how to create
+an independent translation-only pack without changing the canonical campaign or
+reusing the PT-BR-specific installer. Existing rights notices still apply.
+
 Siga o [checklist de QA comunitário](COMMUNITY_QA_CHECKLIST.md). Abra uma issue e informe missão, UID/evento, versão do Augustus, origem da instalação, locale, resultado esperado e resultado observado. Screenshots são bem-vindos; não anexe assets originais da campanha.
 
 ## Sugestões de tradução
