@@ -21,7 +21,9 @@ def digest(data: bytes) -> str:
 @contextlib.contextmanager
 def campaign_fixture(existing: bool = False):
     with tempfile.TemporaryDirectory(prefix="rc3-") as temporary:
-        root = Path(temporary)
+        # Match the installer's canonical path, including macOS /var aliases
+        # and Windows runners whose temporary directory uses a short name.
+        root = Path(temporary).resolve()
         campaign = root / "Reconquered Campaign"
         (campaign / "xmls").mkdir(parents=True)
         baseline = b"<messages/>"
