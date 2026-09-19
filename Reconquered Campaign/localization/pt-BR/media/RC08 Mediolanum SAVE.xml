@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<media_localization version="1" language="pt-BR">
+    <message uid="intro">
+        <speech filename="RC08_08B_Briefing_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_B_WAR_MUSIC_R01.wav" />
+    </message>
+    <message uid="Militarization">
+        <speech filename="RC08_08E01_Militarization_PTBR_G01.wav" />
+    </message>
+    <message uid="trade permit">
+        <speech filename="RC08_08E02_Trade_Permit_PTBR_G01.wav" />
+    </message>
+    <message uid="Mars GT">
+        <speech filename="RC08_08E03_Gifts_Accepted_PTBR_G01.wav" />
+    </message>
+    <message uid="favor">
+        <speech filename="RC08_08E04_Mars_Temple_History_PTBR_G01.wav" />
+    </message>
+    <message uid="subsidy">
+        <speech filename="RC08_08E05_Plaza_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="plaza">
+        <speech filename="RC08_08E06_Favor_Penalty_PTBR_G01.wav" />
+    </message>
+    <message uid="gifts accepted">
+        <speech filename="RC08_08E07_Clinics_Pontifex_History_PTBR_G01.wav" />
+    </message>
+    <message uid="clinic">
+        <speech filename="RC08_08E08_Subsidy_Ends_PTBR_G01.wav" />
+    </message>
+    <message uid="victory">
+        <speech filename="RC08_08W_Victory_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_W_TRIUMPH_MUSIC_R01.wav" />
+    </message>
+</media_localization>

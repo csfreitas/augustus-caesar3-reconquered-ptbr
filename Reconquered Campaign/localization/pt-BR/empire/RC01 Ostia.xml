@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empire_localization version="1">
+    <city object-id="13" source="Ostia">
+        <name>Óstia</name>
+    </city>
+    <city object-id="14" source="Rome">
+        <name>Roma</name>
+    </city>
+    <city object-id="17" source="Croton">
+        <name>Crotona</name>
+    </city>
+    <city object-id="32" source="Veii">
+        <name>Veios</name>
+    </city>
+    <city object-id="33" source="Syracusae">
+        <name>Siracusa</name>
+    </city>
+</empire_localization>

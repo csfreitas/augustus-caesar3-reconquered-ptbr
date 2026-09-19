@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empire_localization version="1">
+    <city object-id="86" source="Hadrians Wall">
+        <name>Muralha de Adriano</name>
+    </city>
+    <city object-id="116" source="Rome">
+        <name>Roma</name>
+    </city>
+    <city object-id="124" source="Syracusae">
+        <name>Siracusa</name>
+    </city>
+</empire_localization>

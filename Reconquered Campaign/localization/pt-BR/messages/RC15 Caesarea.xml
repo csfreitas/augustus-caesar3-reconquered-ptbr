@@ -9,7 +9,7 @@
 		A Caesarea da Mauritânia havia sido a cidade fenícia de Iol, depois ligada a Carthago e aos reinos númidas e mauritanos. Juba II era filho do rei númida Juba I. Ainda criança, foi levado a Roma depois da vitória de César na África e recebeu educação romana. Mais tarde, Augusto o instalou como rei cliente da Mauritânia. @L@L
 		Juba II apoiou Otaviano, o futuro Augusto, e casou-se com Cleópatra Selene II, filha de Marco Antônio e Cleópatra VII do Egito. O casal transformou Iol em sua capital, renomeou-a Caesarea em homenagem a Augusto e promoveu obras de inspiração romana, grega e egípcia. Elementos púnicos, berberes, gregos e romanos coexistiram na cidade, embora “harmonia” não elimine hierarquias e tensões. @L@L
 		
-		@G[c3 instructions icon.png]
+		@G[c3_instructions_icon.png]
 		@H Instruções @L
 		Governador, assuma o comando e transforme a cidade numa esplêndida colônia romana. Esta missão apresenta um desafio novo: Caesarea não possui fonte viável de alimentos. Para abastecer a guarnição e garantir a prosperidade, você dependerá inteiramente das importações do mundo romano. @L@L
 		Felizmente, o clima favorece oliveiras e videiras perto dos oásis. Ouro e pedra podem ser extraídos das montanhas, tornando as exportações muito lucrativas. O terreno não é excessivamente acidentado, mas grupos hostis se interessarão pela cidade. @L@L
@@ -17,15 +17,15 @@
 		Historicamente, você deveria começar com uma cidade construída, mas isso imporia um projeto semelhante a todos os jogadores. A ideia foi abandonada para permitir desenhos originais. @L@L
 		Correção do cenário: os ataques terrestres recorrentes mencionados anteriormente foram removidos. A atividade militar será relativamente leve, pois a identidade do mapa está nas dificuldades econômicas. @L@L
 		
-		@H Éditos @L@
-		Pirataria - Piratas locais atacarão navios mercantes e interromperão o comércio. Uma mobilização militar significativa poderá impedir isso por meio de um evento posterior. @L@L
-		@Impossible @Self-Sufficiency - Alimentos e algumas outras mercadorias só estarão disponíveis por importação. Um evento futuro oferecerá alimento adicional gratuito. Roma decretou que a exportação de areia financiará a economia inicial; outras cidades pagarão um preço elevado por ela, mas esse valor diminuirá com o tempo. @L@L
+		@H Éditos @L
+		@0Pirataria - Piratas locais atacarão navios mercantes e interromperão o comércio. Uma mobilização militar significativa poderá impedir isso por meio de um evento posterior. @L@L
+		@0Autossuficiência @0Impossível - Alimentos e algumas outras mercadorias só estarão disponíveis por importação. Um evento futuro oferecerá alimento adicional gratuito. Roma decretou que a exportação de areia financiará a economia inicial; outras cidades pagarão um preço elevado por ela, mas esse valor diminuirá com o tempo. @L@L
 		@H Informações Adicionais @L
-		Ao planejar a cidade, considere a expansão futura e os limites de circulação comercial. Rodovias, caravançará e o Grande Templo de Mercúrio serão essenciais para superar os desafios. @L@L
+		Ao planejar a cidade, considere a expansão futura e os limites de circulação comercial. Rodovias, caravançará e o Santuário de Mercúrio serão essenciais para superar os desafios. @L@L
 		Fortes são obstáculos indestrutíveis para o inimigo e podem ser girados. Neste mapa, isso ajuda a conduzir atacantes a uma zona de extermínio, mantendo os fortes seguros e liberando espaço para expansão. @L@L
 		A missão ocorre sob o governo de Augusto e Juba II; portanto, interprete pedidos de “César” como ordens de Augusto e da administração imperial, não do Senado republicano. @L
 		@H Eventos Persistentes @L@L
-		O Grande Templo de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. @L@L
+		O Santuário de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. @L@L
 		Devido a limitações do jogo, os preços iniciais serão ajustados depois do primeiro mês. @L@L@L@L
 		</text>
     </message>
@@ -38,7 +38,7 @@
 		Governador, precisamos de provisões para sustentar o exército e a população. Você pode solicitar um auxílio a Roma, trocando parte de nosso Apreço político por remessas regulares de alimento. @L@L
 		@G[decorative objetive .png] @H Novo Objetivo Secundário @L@L
 		Construa um caravançará para receber remessas de 64 unidades de frutas em troca da perda adicional de 1 ponto de Apreço a cada 5 meses. @L@L
-		Para importar o máximo possível, considere construir uma rodovia completa do ponto de entrada ao de saída, selecionar a política de capacidade do caravançará e erguer o Grande Templo de Mercúrio, que aumenta em 50% a capacidade dos comerciantes. @G[Food_Program.png] @G[decorative objetive .png] @L@L
+		Para importar o máximo possível, considere construir uma rodovia completa do ponto de entrada ao de saída, selecionar a política de capacidade do caravançará e erguer o Santuário de Mercúrio, que aumenta em 50% a capacidade dos comerciantes. @G[Food_Program.png] @G[decorative objetive .png] @L@L
 		</text>
     </message>
 
@@ -47,7 +47,7 @@
         <subtitle>Oficinas Liberadas</subtitle>
         <text> @G[c3 stills_74.png]@L 
 		@H Mensagem @L
-		O subsídio colonial terminou, e Caesarea não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @workshops. @G[workshop.png] @L@L
+		O subsídio colonial terminou, e Caesarea não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @0oficinas. @G[workshop.png] @L@L
 		</text>
     </message>
 
@@ -74,7 +74,7 @@
 		@G[decorative objetive .png]
 		@H Novo Desenvolvimento @L
 		@G[less_funds.png] 
-		@L A cidade perdeu 1.500 denários. O evento poderá repetir-se enquanto não houver um farol em funcionamento e@ 80 @soldados @ativos. @G[lighthouse.png] @G[decorative objetive .png] @L@L@L
+		@L A cidade perdeu 1.500 denários. O evento poderá repetir-se enquanto não houver um farol em funcionamento e @0 80 @0soldados @0ativos. @G[lighthouse.png] @G[decorative objetive .png] @L@L@L
 		</text>
     </message>
 
@@ -101,7 +101,7 @@
         <subtitle>Ladrilhos e Mosaicos</subtitle>
         <text> @G[c3 stills_04.png]@L
 		@H Mensagem @L
-		As generosas doações recebidas pelo novo Grande Templo de Mercúrio atraíram renomadas guildas de artesãos, que abriram oficinas para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
+		As generosas doações recebidas pelo novo Santuário de Mercúrio atraíram renomadas guildas de artesãos, que abriram oficinas para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
 		@H Recompensa @L
 		Praça liberada. @G[plaza.png] @L@L
 		</text>

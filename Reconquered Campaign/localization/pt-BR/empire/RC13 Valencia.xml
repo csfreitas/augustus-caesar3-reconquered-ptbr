@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empire_localization version="1">
+    <city object-id="152" source="Valencia">
+        <name>Valentia</name>
+    </city>
+    <city object-id="166" source="Rome">
+        <name>Roma</name>
+    </city>
+    <city object-id="261" source="Ruins of Carthago">
+        <name>Ruínas de Cartago</name>
+    </city>
+</empire_localization>

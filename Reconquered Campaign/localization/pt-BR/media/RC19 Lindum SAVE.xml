@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<media_localization version="1" language="pt-BR">
+    <message uid="intro">
+        <speech filename="RC19_19B_Briefing_Hadrian_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_B_FRT_MUSIC_R01.wav" />
+    </message>
+    <message uid="Choice">
+        <speech filename="RC19_19E01_Local_Tribes_Choice_PTBR_G01.wav" />
+    </message>
+    <message uid="Stone circles">
+        <speech filename="RC19_19E02_Stone_Circles_PTBR_G01.wav" />
+    </message>
+    <message uid="Fish or Vines">
+        <speech filename="RC19_19E03_Fish_Or_Vines_PTBR_G01.wav" />
+    </message>
+    <message uid="Neptune">
+        <speech filename="RC19_19E04_Neptune_Fish_PTBR_G01.wav" />
+    </message>
+    <message uid="Military path">
+        <speech filename="RC19_19E05_Military_Path_PTBR_G01.wav" />
+    </message>
+    <message uid="Economic path">
+        <speech filename="RC19_19E06_Economic_Path_PTBR_G01.wav" />
+    </message>
+    <message uid="Ceres">
+        <speech filename="RC19_19E07_Ceres_Vines_PTBR_G01.wav" />
+    </message>
+    <message uid="plaza">
+        <speech filename="RC19_19E08_Plaza_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="subsidy">
+        <speech filename="RC19_19E09_Subsidy_Ends_PTBR_G01.wav" />
+    </message>
+    <message uid="raid attacks">
+        <speech filename="RC19_19E10_Blood_Feud_Raids_PTBR_G01.wav" />
+    </message>
+    <message uid="natives cleared 1">
+        <speech filename="RC19_19E11_Natives_Assimilated_PTBR_G01.wav" />
+    </message>
+    <message uid="wall1">
+        <speech filename="RC19_19E12_Wall_Foundations_History_PTBR_G01.wav" />
+    </message>
+    <message uid="wall2">
+        <speech filename="RC19_19E13_Wall_Bastions_PTBR_G01.wav" />
+    </message>
+    <message uid="wall3">
+        <speech filename="RC19_19E14_Wall_Barracks_PTBR_G01.wav" />
+    </message>
+    <message uid="wall4">
+        <speech filename="RC19_19E15_Wall_Officers_Quarters_PTBR_G01.wav" />
+    </message>
+    <message uid="wall5">
+        <speech filename="RC19_19E16_Wall_Completed_PTBR_G01.wav" />
+    </message>
+    <message uid="victory">
+        <speech filename="RC19_19W_Victory_Hadrian_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_W_TRIUMPH_MUSIC_R01.wav" />
+    </message>
+</media_localization>

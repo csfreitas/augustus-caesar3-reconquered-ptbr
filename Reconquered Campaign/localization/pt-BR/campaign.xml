@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campaign_localization version="1" language="pt-BR">
+    <name>Campanha Reconquered</name>
+    <description>As 20 missões originais recriadas com os recursos do Augustus. Mais difícil que a campanha original, mas sem dificuldade extrema.</description>
+    <mission first-scenario="RC01 Ostia">
+        <title>Primeira Colônia Romana</title>
+    </mission>
+    <scenario file="RC01 Ostia">
+        <name>Óstia - 706 a.C.</name>
+        <description>Estabeleça a primeira colônia de Roma às margens do mar Tirreno.</description>
+    </scenario>
+    <mission first-scenario="RC02 Brundisium">
+        <title>Colônia em Brundisium</title>
+    </mission>
+    <scenario file="RC02 Brundisium">
+        <name>Brundisium - 245 a.C.</name>
+        <description>Desenvolva uma cidade lucrativa na Magna Grécia.</description>
+    </scenario>
+    <mission first-scenario="RC03 Capua">
+        <title>Cidade de Capua</title>
+    </mission>
+    <scenario file="RC03 Capua">
+        <name>Capua - 350 a.C.</name>
+        <description>Estabeleça uma cidade importante na região central da Itália.</description>
+    </scenario>
+    <mission first-scenario="RC04 Tarentum">
+        <title>Conquista de Tarentum</title>
+    </mission>
+    <scenario file="RC04 Tarentum">
+        <name>Tarentum - 272 a.C.</name>
+        <description>Comande as legiões romanas em Tarentum para resistir aos gregos da região.</description>
+    </scenario>
+    <mission first-scenario="RC05 Tarraco">
+        <title>Base de Abastecimento em Tarraco</title>
+    </mission>
+    <scenario file="RC05 Tarraco">
+        <name>Tarraco - 270 a.C.</name>
+        <description>Estabeleça um centro de abastecimento essencial na Hispânia.</description>
+    </scenario>
+    <mission first-scenario="RC06 Syracusae">
+        <title>Siracusa Romana</title>
+    </mission>
+    <scenario file="RC06 Syracusae">
+        <name>Siracusa - 212 a.C.</name>
+        <description>Repila as tentativas cartaginesas de controlar a maior cidade da Sicília.</description>
+    </scenario>
+    <mission first-scenario="RC07 Miletus">
+        <title>Incorporação de Mileto</title>
+    </mission>
+    <scenario file="RC07 Miletus">
+        <name>Mileto - 133 a.C.</name>
+        <description>Construa uma cidade próspera em meio às condições adversas da Ásia Menor.</description>
+    </scenario>
+    <mission first-scenario="RC08 Mediolanum SAVE">
+        <title>Cidade de Mediolanum</title>
+    </mission>
+    <scenario file="RC08 Mediolanum SAVE">
+        <name>Mediolanum - 222 a.C.</name>
+        <description>Defenda a Itália de seu maior inimigo, Aníbal Barca, e de seu enorme exército.</description>
+    </scenario>
+    <mission first-scenario="RC09 Lugdunum">
+        <title>Colônia de Lugdunum</title>
+    </mission>
+    <scenario file="RC09 Lugdunum">
+        <name>Lugdunum - 43 a.C.</name>
+        <description>Estabeleça uma cidade culta e lucrativa na Gália Romana.</description>
+    </scenario>
+    <mission first-scenario="RC10 Carthago SAVE">
+        <title>Carthago Romana</title>
+    </mission>
+    <scenario file="RC10 Carthago SAVE">
+        <name>Carthago - 48 a.C.</name>
+        <description>Escolha seu lado na guerra civil e reconstrua Carthago, devolvendo-lhe a antiga glória.</description>
+    </scenario>
+    <mission first-scenario="RC11 Tarsus SAVE">
+        <title>Cidade de Tarso</title>
+    </mission>
+    <scenario file="RC11 Tarsus SAVE">
+        <name>Tarso - 67 a.C.</name>
+        <description>Administre diversas importações e exportações na região mineradora de Tarso.</description>
+    </scenario>
+    <mission first-scenario="RC12 Tingis">
+        <title>Colônia em Tingis</title>
+    </mission>
+    <scenario file="RC12 Tingis">
+        <name>Tingis - 70 a.C.</name>
+        <description>Estabeleça uma cidade nos limites do mundo conhecido.</description>
+    </scenario>
+    <mission first-scenario="RC13 Valencia">
+        <title>Metrópole de Valentia</title>
+    </mission>
+    <scenario file="RC13 Valencia">
+        <name>Valentia - 138 a.C.</name>
+        <description>Administre grandes cotas de exportação de matérias-primas e combata a corrupção na maior cidade da Hispânia.</description>
+    </scenario>
+    <mission first-scenario="RC14 Lutetia SAVE">
+        <title>Lutetia Romana</title>
+    </mission>
+    <scenario file="RC14 Lutetia SAVE">
+        <name>Lutetia - 11 a.C.</name>
+        <description>Construa uma grande cidade e supere as muitas dificuldades que o aguardam na Gália.</description>
+    </scenario>
+    <mission first-scenario="RC15 Caesarea">
+        <title>Colônia de Caesarea</title>
+    </mission>
+    <scenario file="RC15 Caesarea">
+        <name>Caesarea - 10 a.C.</name>
+        <description>Estabeleça uma cidade sem nenhuma produção local de alimentos.</description>
+    </scenario>
+    <mission first-scenario="RC16 Damascus">
+        <title>Cidade de Damasco</title>
+    </mission>
+    <scenario file="RC16 Damascus">
+        <name>Damasco - 64 a.C.</name>
+        <description>Garanta o abastecimento vital de água e transforme Damasco em uma cidade grande e lucrativa.</description>
+    </scenario>
+    <mission first-scenario="RC17 Londinium SAVE">
+        <title>Metrópole de Londinium</title>
+    </mission>
+    <scenario file="RC17 Londinium SAVE">
+        <name>Londinium - 47 d.C.</name>
+        <description>Estabeleça uma economia de escala e, apesar das muitas dificuldades, desenvolva uma enorme cidade na Britânia Romana.</description>
+    </scenario>
+    <mission first-scenario="RC18 Sarmizegetusa">
+        <title>Colônia de Sarmizegetusa</title>
+    </mission>
+    <scenario file="RC18 Sarmizegetusa">
+        <name>Sarmizegetusa - 102 d.C.</name>
+        <description>Construa uma cidade de padrões romanos na fronteira dácia do Império.</description>
+    </scenario>
+    <mission first-scenario="RC19 Lindum SAVE">
+        <title>Cidade de Lindum</title>
+    </mission>
+    <scenario file="RC19 Lindum SAVE">
+        <name>Lindum - 122 d.C.</name>
+        <description>Ajude o imperador Adriano a construir sua imensa muralha enquanto administra Lindum.</description>
+    </scenario>
+    <mission first-scenario="RC20 Massilia">
+        <title>Metrópole de Massilia</title>
+    </mission>
+    <scenario file="RC20 Massilia">
+        <name>Massilia - 218 a.C.</name>
+        <description>Assimile os gregos da região e derrote as forças cartaginesas uma última vez em Massilia.</description>
+    </scenario>
+</campaign_localization>

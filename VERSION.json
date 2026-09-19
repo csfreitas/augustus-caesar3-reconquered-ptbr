@@ -1,13 +1,18 @@
 {
-  "version": "1.0.0-rc.2",
-  "status": "community-prerelease-in-game-qa-pending",
-  "baseline": "Reconquered Current public fileid=2243",
+  "version": "1.0.0-rc.3",
+  "status": "technical-prerelease-full-mission-qa-pending",
+  "baseline": "Reconquered public fileid=2243; exact hashes in integration plans",
   "localized_missions": 20,
   "localized_messages": 198,
   "speech_files": 197,
   "music_files": 10,
-  "augustus_requirement": "PR #1893 or compatible build",
+  "localization_files": 82,
+  "metadata_fields": 62,
+  "localized_empire_occurrences": 54,
+  "installer": "native-localization-only",
+  "python_requirement": "3.11+",
+  "engine_requirement": "Claudius 26e0508921bcb1c01166fc683a59fb1917fa2426 or equivalent messages, native media, metadata and empire display-name support",
   "not_official": true,
   "remote_publication": true,
-  "supersedes": "v1.0.0-rc.1"
+  "supersedes": "v1.0.0-rc.2"
 }

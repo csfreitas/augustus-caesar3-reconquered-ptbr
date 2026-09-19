@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<media_localization version="1" language="pt-BR">
+    <message uid="intro">
+        <speech filename="RC14_14B_Briefing_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_B_FRT_MUSIC_R01.wav" />
+    </message>
+    <message uid="rome route">
+        <speech filename="RC14_14E01_Rome_Trade_Route_PTBR_G01.wav" />
+    </message>
+    <message uid="natives">
+        <speech filename="RC14_14E02_Hostile_Communities_History_PTBR_G01.wav" />
+    </message>
+    <message uid="subsidy">
+        <speech filename="RC14_14E03_Subsidy_Ends_PTBR_G01.wav" />
+    </message>
+    <message uid="mission post unlocked">
+        <speech filename="RC14_14E04_Mission_Posts_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="plaza">
+        <speech filename="RC14_14E05_Plaza_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="Augustus dies">
+        <speech filename="RC14_14E06_Augustus_Death_History_PTBR_G01.wav" />
+    </message>
+    <message uid="victory">
+        <speech filename="RC14_14W_Victory_Augustus_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_W_IMPERIAL_MUSIC_R01.wav" />
+    </message>
+</media_localization>

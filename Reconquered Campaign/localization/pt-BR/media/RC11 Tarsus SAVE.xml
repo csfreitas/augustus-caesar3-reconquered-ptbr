@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<media_localization version="1" language="pt-BR">
+    <message uid="intro">
+        <speech filename="RC11_11B_Briefing_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_B_MED_MUSIC_R01.wav" />
+    </message>
+    <message uid="caravenserai">
+        <speech filename="RC11_11E01_Caravanserai_History_PTBR_G01.wav" />
+    </message>
+    <message uid="favor event start">
+        <speech filename="RC11_11E02_Returning_Favor_Crassus_PTBR_G01.wav" />
+    </message>
+    <message uid="subsidy">
+        <speech filename="RC11_11E03_Subsidy_Ends_PTBR_G01.wav" />
+    </message>
+    <message uid="favor repayed">
+        <speech filename="RC11_11E04_Favor_Repaid_Crassus_PTBR_G01.wav" />
+    </message>
+    <message uid="alexandria">
+        <speech filename="RC11_11E05_Alexandria_History_PTBR_G01.wav" />
+    </message>
+    <message uid="plaza">
+        <speech filename="RC11_11E06_Plaza_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="temples">
+        <speech filename="RC11_11E07_Cultural_Tensions_PTBR_G01.wav" />
+    </message>
+    <message uid="scam">
+        <speech filename="RC11_11E08_Crassus_Expedition_PTBR_G01.wav" />
+    </message>
+    <message uid="ignored">
+        <speech filename="RC11_11E09_Offer_Refused_Crassus_PTBR_G01.wav" />
+    </message>
+    <message uid="victory">
+        <speech filename="RC11_11W_Victory_Pompey_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_W_IMPERIAL_MUSIC_R01.wav" />
+    </message>
+</media_localization>

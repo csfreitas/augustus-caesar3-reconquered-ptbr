@@ -9,19 +9,19 @@
 		Taras tornou-se uma das cidades mais prósperas da Magna Grécia. Durante sua idade de ouro, no início do século IV a.C., o filósofo, matemático e estratego Arquitas foi eleito general sete vezes consecutivas e ampliou a influência de Tarentum sobre outras cidades gregas do sul da Itália. @L@L
 		A cidade teve papel decisivo na Guerra Pírrica ao chamar Pirro do Epiro para enfrentar a República Romana. Depois da retirada do rei, a guarnição epirota entregou Tarentum aos romanos em 272 a.C. Roma então desmantelou suas defesas e consolidou o domínio sobre a região. @L@L
 
-		@G[c3 instructions icon.png]
+		@G[c3_instructions_icon.png]
 		@H Instruções @L
 		Bem-vindo, governador. Há muito a fazer, portanto vamos direto à tarefa: você deverá reconstruir Taras como Tarentum, uma verdadeira colônia romana. @L@L
 		A cidade fica na Magna Grécia, a “Grande Grécia”, e seu interior ainda é ocupado principalmente por póleis gregas. Elas ressentem a presença romana, e seus ataques e incursões devem aumentar sempre que nossos exércitos estiverem ocupados em outras frentes. @L@L
-		Por isso, você precisará recrutar, treinar, equipar e alimentar uma guarnição considerável. Meus legados calculam que uma força de aproximadamente 6 @forts, apoiada por obras defensivas, será suficiente para resistir até mesmo a um ataque combinado das póleis inimigas. @L@L
+		Por isso, você precisará recrutar, treinar, equipar e alimentar uma guarnição considerável. Meus legados calculam que uma força de aproximadamente 6 @0fortes, apoiada por obras defensivas, será suficiente para resistir até mesmo a um ataque combinado das póleis inimigas. @L@L
 		Essa defesa terá grande importância estratégica. Enquanto Tarentum contiver e desgastar o inimigo, nossas legiões avançarão para conquistar definitivamente essas cidades. Contamos com sua capacidade de improvisar diante de imprevistos; você já demonstrou ser um administrador competente e digno de confiança. @L@L
-		O terreno de Tarentum não é particularmente acidentado e oferece terras férteis e matérias-primas suficientes para criar um próspero empório comercial e um centro do poder romano. A única dificuldade é que a cidade não pode cultivar nem importar @olives. Se quiser fornecer azeite aos colonos, você terá de importar o produto acabado. @L@L
-		Os agrimensores também encontraram ricos veios de @iron @ore. Use esse recurso para armar suas tropas e vender @weapons ao restante da República: em uma época de guerras quase constantes, a procura por armamentos permanece elevada. @L@L
+		O terreno de Tarentum não é particularmente acidentado e oferece terras férteis e matérias-primas suficientes para criar um próspero empório comercial e um centro do poder romano. A única dificuldade é que a cidade não pode cultivar nem importar @0azeitonas. Se quiser fornecer azeite aos colonos, você terá de importar o produto acabado. @L@L
+		Os agrimensores também encontraram ricos veios de @0minério @0de @0ferro. Use esse recurso para armar suas tropas e vender @0armas ao restante da República: em uma época de guerras quase constantes, a procura por armamentos permanece elevada. @L@L
 		Boa sorte, governador. Seu desempenho em Tarentum determinará o futuro de nossas campanhas na Magna Grécia. @L@L
 
 		@H Éditos @L
-		@Military @Buildup - Para cada um dos 3 primeiros fortes construídos e totalmente ocupados por 16 soldados, sua cidade receberá 1.500 denários. O tipo de tropa não importa. @L@L
-		@Rich @Ore @Deposits - O ferro e as armas produzidos localmente têm grande procura em toda a República. @L@L
+		@0Mobilização @0Militar - Para cada um dos 3 primeiros fortes construídos e totalmente ocupados por 16 soldados, sua cidade receberá 1.500 denários. O tipo de tropa não importa. @L@L
+		@0Ricas @0Jazidas @0de @0Minério - O ferro e as armas produzidos localmente têm grande procura em toda a República. @L@L
 
 		@H Informações Adicionais @L
 		Existem três pontos de invasão. As zonas de entrada e saída nunca são usadas por invasores estrangeiros, mas outras bordas expostas representam ameaças em potencial. Examine o mapa e escolha com cuidado onde construir suas defesas. @L@L
@@ -74,7 +74,7 @@
         <subtitle>Oficinas Liberadas</subtitle>
         <text> @G[c3 stills_74.png]@L
 		@H Mensagem @L
-		O subsídio colonial terminou, e Tarentum não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @workshops. @G[workshop.png] @L
+		O subsídio colonial terminou, e Tarentum não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @0oficinas. @G[workshop.png] @L
 		@L@L@L
 		</text>
     </message>

@@ -1,46 +1,34 @@
+[CmdletBinding()]
 param(
-    [Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $true, Position = 0)]
+    [ValidateNotNullOrEmpty()]
     [string]$CampaignDirectory
 )
 
 $ErrorActionPreference = 'Stop'
-$campaign = (Resolve-Path -LiteralPath $CampaignDirectory -ErrorAction Stop).Path
-if ((Split-Path -Leaf $campaign) -ne 'Reconquered Campaign') {
-    throw 'Destino recusado: a pasta final deve se chamar Reconquered Campaign.'
+$PSNativeCommandUseErrorActionPreference = $false
+$installer = Join-Path $PSScriptRoot 'reconquered_ptbr_native_media.py'
+if (-not (Test-Path -LiteralPath $installer -PathType Leaf)) {
+    Write-Error 'Instalador nativo ausente. Extraia o pacote RC3 completo.' -ErrorAction Continue
+    exit 1
 }
 
-$installManifestPath = Join-Path $campaign '.reconquered-ptbr-media-install.json'
-if (-not (Test-Path -LiteralPath $installManifestPath)) {
-    throw 'Manifesto da integração audiovisual PT-BR não encontrado.'
-}
-$manifest = Get-Content -LiteralPath $installManifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
-$backupRoot = $manifest.BackupDirectory
-
-foreach ($file in $manifest.Files) {
-    $destination = Join-Path $campaign $file.RelativePath
-    if (-not (Test-Path -LiteralPath $destination)) {
-        throw "Arquivo instalado ausente; desinstalação interrompida: $($file.RelativePath)"
+$versionCheck = 'import sys; sys.exit(0 if sys.version_info >= (3, 11) else 1)'
+foreach ($name in @('py', 'python3', 'python')) {
+    $command = Get-Command -Name $name -CommandType Application -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($null -eq $command) { continue }
+    $prefix = @()
+    if ($name -eq 'py') { $prefix = @('-3') }
+    try {
+        & $command.Source @prefix -c $versionCheck 2>$null | Out-Null
+        if ($LASTEXITCODE -ne 0) { continue }
+    } catch {
+        continue
     }
-    $actual = (Get-FileHash -LiteralPath $destination -Algorithm SHA256).Hash
-    if ($actual -ne $file.InstalledSha256) {
-        throw "Arquivo alterado após a instalação; desinstalação recusada para preservar mudanças: $($file.RelativePath)"
-    }
+
+    & $command.Source @prefix $installer uninstall $CampaignDirectory
+    exit $LASTEXITCODE
 }
 
-foreach ($file in $manifest.Files) {
-    $destination = Join-Path $campaign $file.RelativePath
-    if ($file.HadOriginal) {
-        $backup = Join-Path $backupRoot $file.RelativePath
-        if (-not (Test-Path -LiteralPath $backup)) { throw "Backup ausente: $backup" }
-        Copy-Item -LiteralPath $backup -Destination $destination -Force
-    } else {
-        Remove-Item -LiteralPath $destination -Force
-    }
-}
-
-$archivedManifest = Join-Path $backupRoot 'uninstalled-media-install-manifest.json'
-Copy-Item -LiteralPath $installManifestPath -Destination $archivedManifest -Force
-Remove-Item -LiteralPath $installManifestPath -Force
-
-Write-Output 'Integração audiovisual PT-BR removida. Os XMLs e arquivos anteriores foram restaurados.'
-Write-Output "Backup preservado em: $backupRoot"
+Write-Error 'Python 3.11 ou superior nao encontrado. Instale-o e disponibilize py, python3 ou python no PATH.' -ErrorAction Continue
+exit 1

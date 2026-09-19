@@ -11,15 +11,15 @@
 		Suas instituições políticas, frequentemente descritas como uma república oligárquica, existiam antes da Primeira Guerra Púnica, travada entre 264 e 241 a.C. A derrota reduziu o domínio cartaginês sobre a Sicília, mas não destruiu o Estado nem criou um sistema político inteiramente novo. @L@L
 		Carthago continuaria sendo a principal rival de Roma. As duas potências ainda se enfrentariam na Segunda e na Terceira Guerras Púnicas, até que Roma se tornasse a força dominante no Mediterrâneo ocidental. @L@L 
 		
-		@G[c3 instructions icon.png]	
+		@G[c3_instructions_icon.png]
 		@H Instruções @L
 		Bem-vindo à Hispânia, governador. Tarraco agora está sob nosso controle, e cabe a você transformá-la em um grande centro de produção e numa base de abastecimento para futuras expedições pela península. Você não participará diretamente dos combates: sua obrigação será fornecer provisões em abundância aos oficiais romanos, aproveitando a extraordinária fertilidade das terras próximas à cidade. @L@L
 		Os rios sinuosos depositam sedimentos ricos no solo ao redor de Tarraco, permitindo colheitas abundantes de trigo e outros produtos. O mármore é outra mercadoria local valiosa, útil tanto para nossas construções quanto para exportações lucrativas. Infelizmente, ainda não conhecemos veios de ferro adequados dentro dos limites da cidade. Você terá de importar o metal para abastecer as oficinas de armas. Um relatório da expedição inicial sugere que talvez seja possível extrair ferro na região, mas a operação exigiria mais trabalhadores do que o pequeno assentamento pode oferecer neste momento. Quando Tarraco crescer, talvez seja possível iniciar a mineração em grande escala. @L@L
 		O terreno será o mais difícil que você enfrentou até agora. Ainda assim, sua experiência deverá permitir que a cidade prospere até mesmo no relevo acidentado da Hispânia. @L@L
 		
 		@H Éditos @L
-		@Iron @Veins - Quando sua colônia atingir 1.500 habitantes, você receberá um objetivo secundário para enfrentar a escassez de ferro. @L@L
-		@Urban@ Poverty - A mão de obra é barata e os salários começam em 20 denários, mas os preços das mercadorias exportadas também são menores. Roma poderá solicitar grandes quantidades de trigo e outros produtos comuns. @L@L
+		@0Veios @0de @0Ferro - Quando sua colônia atingir 1.500 habitantes, você receberá um objetivo secundário para enfrentar a escassez de ferro. @L@L
+		@0Pobreza @0Urbana - A mão de obra é barata e os salários começam em 20 denários, mas os preços das mercadorias exportadas também são menores. Roma poderá solicitar grandes quantidades de trigo e outros produtos comuns. @L@L
 		
 		@H Informações Adicionais @L
 		Neste mapa, os pontos de mineração estão marcados por círculos de estrada de 2 × 2. As rochas sem essa marcação não permitem a construção de minas nas proximidades. @L
@@ -64,10 +64,10 @@
 		
 		@H Contexto Histórico @L
 		As armaduras romanas evoluíram junto com as armas e a organização do exército. O contato com novos inimigos e aliados levou à adoção e à adaptação de diferentes formas de proteção. Entre as mais conhecidas estão: @L@L
-		Couraça anatômica de bronze ou materiais orgânicos, @lorica @musculata - Surgiu na tradição grega e itálica e reproduzia de forma idealizada os músculos do torso. Os romanos a utilizaram tanto em combate quanto, sobretudo em períodos posteriores, na representação de comandantes e imperadores. O couro fervido aparece em reconstruções modernas, mas não deve ser considerado o único material empregado. @L@L
-		Cota de malha de ferro, @lorica @hamata - Provavelmente foi adotada pelos romanos por meio do contato com povos célticos. Era flexível, resistente e oferecia boa proteção geral, embora sua fabricação exigisse muito trabalho. Tornou-se uma das proteções mais duradouras do exército romano e foi amplamente usada na República Tardia. @L@L
-		Armadura de lâminas articuladas de ferro, @lorica @segmentata - Sua denominação é moderna e sua origem exata permanece debatida. Os exemplares mais conhecidos pertencem ao início do período imperial. A armadura tornou-se um símbolo visual dos legionários, mas nunca foi a única proteção romana e não representa adequadamente todos os soldados das épocas de César ou Augusto. Outros povos também empregaram formas de armadura laminada. @L@L
-		Armadura de escamas, @lorica @squamata - Era composta por pequenas placas sobrepostas presas a uma base e foi usada por diferentes tropas romanas ao longo de vários séculos, além de aparecer em outros exércitos do Mediterrâneo e do Oriente. Não era apenas um equipamento barato da fase de declínio do Império: sua qualidade, peso e proteção variavam conforme os materiais e a construção. @L@L@L@L
+		Couraça anatômica de bronze ou materiais orgânicos, @0lorica @0musculata - Surgiu na tradição grega e itálica e reproduzia de forma idealizada os músculos do torso. Os romanos a utilizaram tanto em combate quanto, sobretudo em períodos posteriores, na representação de comandantes e imperadores. O couro fervido aparece em reconstruções modernas, mas não deve ser considerado o único material empregado. @L@L
+		Cota de malha de ferro, @0lorica @0hamata - Provavelmente foi adotada pelos romanos por meio do contato com povos célticos. Era flexível, resistente e oferecia boa proteção geral, embora sua fabricação exigisse muito trabalho. Tornou-se uma das proteções mais duradouras do exército romano e foi amplamente usada na República Tardia. @L@L
+		Armadura de lâminas articuladas de ferro, @0lorica @0segmentata - Sua denominação é moderna e sua origem exata permanece debatida. Os exemplares mais conhecidos pertencem ao início do período imperial. A armadura tornou-se um símbolo visual dos legionários, mas nunca foi a única proteção romana e não representa adequadamente todos os soldados das épocas de César ou Augusto. Outros povos também empregaram formas de armadura laminada. @L@L
+		Armadura de escamas, @0lorica @0squamata - Era composta por pequenas placas sobrepostas presas a uma base e foi usada por diferentes tropas romanas ao longo de vários séculos, além de aparecer em outros exércitos do Mediterrâneo e do Oriente. Não era apenas um equipamento barato da fase de declínio do Império: sua qualidade, peso e proteção variavam conforme os materiais e a construção. @L@L@L@L
 		</text>
     </message>
     <message uid="subsidy">
@@ -75,7 +75,7 @@
         <subtitle>Oficinas Liberadas</subtitle>
         <text> @G[c3 stills_74.png]@L 
 		@H Mensagem @L
-		O subsídio colonial terminou, e Tarraco não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @workshops. @G[workshop.png] @L
+		O subsídio colonial terminou, e Tarraco não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @0oficinas. @G[workshop.png] @L
 		@L@L@L
 		</text>
     </message>

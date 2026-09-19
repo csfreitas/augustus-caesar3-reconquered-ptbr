@@ -11,19 +11,19 @@
 		Problemas de planejamento, logística, máquinas de cerco e coordenação tornaram a campanha de Antônio um fracasso. A retirada causou perdas graves por ataques, fome, doenças e clima. A Armênia não foi simplesmente subjugada pelos partas em consequência imediata: Antônio voltou-se depois contra Artavasdes, ocupou o reino e levou o rei prisioneiro ao Egito, enquanto a disputa romano-parta pela região continuou. @L@L
 		Os partas invadiram a Síria e outras províncias romanas em 40 a.C., não em 53 a.C., sob o príncipe Pácoro e com participação do romano Quinto Labieno. Públio Ventídio Basso derrotou os invasores em campanhas de 39 e 38 a.C.; Pácoro, herdeiro do trono, morreu em combate, mas o rei Orodes II não foi morto por Ventídio. Infantaria bem posicionada, fundeiros e o uso do terreno ajudaram a neutralizar a cavalaria parta. @L@L
 		
-		@G[c3 instructions icon.png]
+		@G[c3_instructions_icon.png]
 		@H Instruções @L
 		Bem-vindo à Síria, governador. A missão não será simples. A região não possui acesso fácil a água potável, o que limitará o crescimento de qualquer assentamento permanente. As comunidades locais controlam os oásis; até negociar com elas, você dependerá de poços. @L@L
 		Damasco não tem acesso fácil ao mar, deixando grande parte do oeste da República fora de alcance, mas o potencial de comércio terrestre é imenso. A região também possui minério de ferro de alta qualidade, valorizado e adequado à fabricação de armas. Oliveiras e videiras crescem perto dos oásis. Sua principal dificuldade econômica será obter argila, inexistente localmente. @L@L
 		Não subestime a atividade militar. A Pártia está em guerra com a República e deseja retirar a região do controle romano; espere ataques exploratórios e incursões. Estabeleça defesas adequadas para que Damasco não pareça um alvo fácil. Boa sorte, governador: orgulhe o Senado e transforme Damasco numa próspera cidade romana. @L@L
 		
-		@H Éditos @L@
-		Geography @of @Damascus - Ferro e armas têm grande demanda, enquanto argila e cerâmica são importações caras. O acesso a reservatórios começa fortemente restrito e poderá ser ampliado no futuro. Oráculos, mausoléus e ninfeus estão indisponíveis. @L@L
-		@Eastern@ Provinces - Você só pode construir e manter funcionários em um único fórum. A colônia deverá sustentar-se principalmente pelo comércio. Mais de 1 fórum provocará penalidades. @L@L
+		@H Éditos @L
+		@0Geografia @0de @0Damasco - Ferro e armas têm grande demanda, enquanto argila e cerâmica são importações caras. O acesso a reservatórios começa fortemente restrito e poderá ser ampliado no futuro. Oráculos, mausoléus e ninfeus estão indisponíveis. @L@L
+		@0Províncias @0Orientais - Você só pode construir e manter funcionários em um único fórum. A colônia deverá sustentar-se principalmente pelo comércio. Mais de 1 fórum provocará penalidades. @L@L
 		@H Informações Adicionais @L
 		Roma ainda é uma república nesta missão. Interprete os pedidos de “César” como determinações do Senado Romano. @L@L
 		@H Eventos Persistentes @L
-		O Grande Templo de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. @L@L
+		O Santuário de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. @L@L
 		Devido a limitações do jogo, os preços iniciais serão ajustados depois do primeiro mês. @L@L@L@L
 		</text>
     </message>
@@ -37,15 +37,15 @@
 		@G[decorative objetive .png] @H Novo Desenvolvimento @L
 		A partir de agora, Roma solicitará ferro anualmente. Pedidos de outras mercadorias poderão ocorrer ao mesmo tempo. @G[Damascene_Steel.png] @G[decorative objetive .png] @L@L@L@L
 		@H Contexto Histórico @L
-		Embora não esteja diretamente ligado ao ferro, examinaremos aspectos da vida cotidiana romana. Uma moradia urbana comum era a ínsula, edifício de apartamentos e lojas construído com alvenaria, concreto e madeira em proporções variadas. Os pisos térreos podiam abrigar lojas, oficinas, tavernas e @thermopolia, que vendiam comidas e bebidas. @L@L
+		Embora não esteja diretamente ligado ao ferro, examinaremos aspectos da vida cotidiana romana. Uma moradia urbana comum era a ínsula, edifício de apartamentos e lojas construído com alvenaria, concreto e madeira em proporções variadas. Os pisos térreos podiam abrigar lojas, oficinas, tavernas e @0thermopolia, que vendiam comidas e bebidas. @L@L
 		Em muitas ínsulas, os apartamentos superiores eram menores, mais baratos e mais difíceis de alcançar. Incêndios, desabamentos e construção deficiente constituíam riscos, embora qualidade e organização variassem entre cidades e edifícios. @L@L
 		Romanos ricos podiam pagar ligações privadas aos aquedutos. A água corria principalmente pela gravidade e era distribuída por reservatórios e tubulações; não era “bombeada” no sentido moderno. A maioria da população dependia de fontes públicas, poços e carregadores. @L@L
 		Drenagem e esgoto variavam muito. Grandes cidades possuíam canais como a Cloaca Máxima, mas seu alcance não era universal. Águas residuais e lixo podiam acumular-se em ruas e bairros pobres, apesar de calçadas, sarjetas e normas locais. @L@L
 		Os hábitos alimentares dependiam de riqueza, região e ocupação. Um café da manhã simples podia incluir pão, queijo, frutas ou sobras, mas não era necessariamente a maior refeição. Trabalhadores precisavam de alimentação suficiente, embora pobreza e desigualdade limitassem a dieta. @L@L
-		O almoço geralmente era leve e podia ser comprado em bancas ou @thermopolia. Pães achatados com queijo, ervas, azeite, azeitonas, figos ou carne lembram algumas preparações modernas, mas chamá-los de precursores diretos da pizza é simplificação. Tomates eram desconhecidos na Europa antiga. Espetos e outros alimentos fáceis de transportar também existiam. @L@L
-		A @cena, refeição do fim do dia, costumava ser a principal refeição para quem podia realizá-la, variando de uma refeição modesta a banquetes da elite. @L@L
+		O almoço geralmente era leve e podia ser comprado em bancas ou @0thermopolia. Pães achatados com queijo, ervas, azeite, azeitonas, figos ou carne lembram algumas preparações modernas, mas chamá-los de precursores diretos da pizza é simplificação. Tomates eram desconhecidos na Europa antiga. Espetos e outros alimentos fáceis de transportar também existiam. @L@L
+		A @0cena, refeição do fim do dia, costumava ser a principal refeição para quem podia realizá-la, variando de uma refeição modesta a banquetes da elite. @L@L
 		Fogo aberto, lamparinas, oficinas e abundância de madeira tornavam os incêndios urbanos perigosos. Roma e outras cidades sofreram grandes conflagrações. @L@L
-		Augusto organizou em 6 d.C. os @vigiles como força pública permanente de vigilância noturna e combate a incêndios, formada sobretudo por libertos e organizada em coortes. Antes disso, existiram iniciativas públicas e brigadas privadas compostas por pessoas escravizadas, mas @vigiles não era simplesmente o nome de todos esses escravos. @L@L
+		Augusto organizou em 6 d.C. os @0vigiles como força pública permanente de vigilância noturna e combate a incêndios, formada sobretudo por libertos e organizada em coortes. Antes disso, existiram iniciativas públicas e brigadas privadas compostas por pessoas escravizadas, mas @0vigiles não era simplesmente o nome de todos esses escravos. @L@L
 		Durante incêndios, equipes usavam baldes, bombas manuais, ganchos e ferramentas. Edifícios podiam ser derrubados para criar corta-fogos, prática comparável à abertura de faixas sem combustível em incêndios florestais. Os vigiles também patrulhavam as ruas e atuavam contra roubos e desordens noturnas. @L@L@L@L
 		</text>
     </message>
@@ -66,7 +66,7 @@
         <subtitle>Oficinas Liberadas</subtitle>
         <text> @G[c3 stills_74.png]@L 
 		@H Mensagem @L
-		O subsídio colonial terminou, e Damasco não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @workshops. @G[workshop.png] @L@L
+		O subsídio colonial terminou, e Damasco não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @0oficinas. @G[workshop.png] @L@L
 		</text>
     </message>
 
@@ -111,7 +111,7 @@
         <subtitle>Ladrilhos e Mosaicos</subtitle>
         <text> @G[c3 stills_04.png]@L
 		@H Mensagem @L
-		As generosas doações recebidas pelo novo Grande Templo de Mercúrio atraíram renomadas guildas de artesãos, que abriram oficinas para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
+		As generosas doações recebidas pelo novo Santuário de Mercúrio atraíram renomadas guildas de artesãos, que abriram oficinas para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
 		@H Recompensa @L
 		Praça liberada. @G[plaza.png] @L@L
 		</text>

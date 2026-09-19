@@ -30,6 +30,7 @@ class NativeMediaInstallerTest(unittest.TestCase):
             localization = payload / "localization"
             (localization / "pt-BR" / "messages").mkdir(parents=True)
             (localization / "pt-BR" / "media").mkdir(parents=True)
+            (localization / "pt-BR" / "empire").mkdir(parents=True)
             (localization / "locales.xml").write_text("<locales version='1'/>", encoding="utf-8")
             (localization / "pt-BR" / "messages" / f"{scenario_name}.xml").write_text(
                 "<localization version='1'/>", encoding="utf-8"
@@ -37,6 +38,13 @@ class NativeMediaInstallerTest(unittest.TestCase):
             (localization / "pt-BR" / "media" / f"{scenario_name}.xml").write_text(
                 "<media_localization version='1'/>", encoding="utf-8"
             )
+            for empire_scenario in native.EMPIRE_LOCALIZATION_SCENARIOS:
+                (localization / "pt-BR" / "empire" / f"{empire_scenario}.xml").write_text(
+                    "<empire_localization version='1'/>", encoding="utf-8"
+                )
+            metadata_path = localization / "pt-BR" / "campaign.xml"
+            metadata_content = b"<campaign_localization version='1'><name>Test</name></campaign_localization>"
+            metadata_path.write_bytes(metadata_content)
 
             audio = payload / "audio"
             audio.mkdir(parents=True)
@@ -95,6 +103,13 @@ class NativeMediaInstallerTest(unittest.TestCase):
             existing_locales = campaign / "localization" / "locales.xml"
             existing_locales.parent.mkdir(parents=True)
             existing_locales.write_bytes(b"previous-locales")
+            existing_metadata = campaign / "localization" / "pt-BR" / "campaign.xml"
+            existing_metadata.parent.mkdir(parents=True)
+            existing_metadata.write_bytes(b"previous-metadata")
+            settings = campaign / "Settings.xml"
+            settings.write_bytes(b"canonical-settings")
+            save = campaign / "example.svx"
+            save.write_bytes(b"canonical-save")
 
             with (
                 patch.object(native, "MUSIC_PLAN_PATH", music_plan_path),
@@ -102,13 +117,36 @@ class NativeMediaInstallerTest(unittest.TestCase):
                 patch.object(native, "PAYLOAD_AUDIO", audio),
                 patch.object(native, "PAYLOAD_LOCALIZATION", localization),
             ):
+                empire_path = localization / "pt-BR" / "empire" / "RC19 Lindum SAVE.xml"
+                empire_content = empire_path.read_bytes()
+                empire_path.unlink()
+                with self.assertRaisesRegex(ValueError, "RC19 Lindum SAVE.xml"):
+                    native.install(campaign)
+                self.assertFalse((campaign / native.INSTALL_MANIFEST).exists())
+                self.assertFalse((campaign / ".reconquered-ptbr-native-media-backup").exists())
+                self.assertEqual(existing_metadata.read_bytes(), b"previous-metadata")
+                self.assertEqual(existing_locales.read_bytes(), b"previous-locales")
+                empire_path.write_bytes(empire_content)
+                metadata_path.unlink()
+                with self.assertRaisesRegex(ValueError, "pt-BR/campaign.xml"):
+                    native.install(campaign)
+                self.assertEqual(existing_metadata.read_bytes(), b"previous-metadata")
+                self.assertEqual(existing_locales.read_bytes(), b"previous-locales")
+                self.assertFalse((campaign / native.INSTALL_MANIFEST).exists())
+                self.assertFalse((campaign / ".reconquered-ptbr-native-media-backup").exists())
+                metadata_path.write_bytes(metadata_content)
                 native.install(campaign)
                 self.assertEqual(xml_path.read_bytes(), xml_content)
                 manifest = json.loads((campaign / native.INSTALL_MANIFEST).read_text(encoding="utf-8"))
-                self.assertEqual(manifest["localization_files"], 3)
+                self.assertEqual(manifest["localization_files"],
+                                 4 + len(native.EMPIRE_LOCALIZATION_SCENARIOS))
                 self.assertEqual(manifest["speech_files"], 2)
                 self.assertEqual(manifest["music_files"], 2)
-                self.assertEqual(len(manifest["files"]), 7)
+                self.assertEqual(len(manifest["files"]),
+                                 8 + len(native.EMPIRE_LOCALIZATION_SCENARIOS))
+                self.assertEqual(existing_metadata.read_bytes(), metadata_content)
+                self.assertEqual(settings.read_bytes(), b"canonical-settings")
+                self.assertEqual(save.read_bytes(), b"canonical-save")
                 self.assertTrue(
                     (campaign / "localization" / "pt-BR" / "audio" / "briefing.wav").is_file()
                 )
@@ -117,7 +155,11 @@ class NativeMediaInstallerTest(unittest.TestCase):
                 native.uninstall(campaign)
                 self.assertEqual(xml_path.read_bytes(), xml_content)
                 self.assertEqual(existing_locales.read_bytes(), b"previous-locales")
+                self.assertEqual(existing_metadata.read_bytes(), b"previous-metadata")
+                self.assertEqual(settings.read_bytes(), b"canonical-settings")
+                self.assertEqual(save.read_bytes(), b"canonical-save")
                 self.assertFalse((campaign / "localization" / "pt-BR" / "media").exists())
+                self.assertFalse((campaign / "localization" / "pt-BR" / "empire").exists())
                 self.assertFalse((campaign / "localization" / "pt-BR" / "audio").exists())
 
 

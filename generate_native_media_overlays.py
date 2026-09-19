@@ -8,6 +8,8 @@ import json
 from pathlib import Path
 from xml.etree import ElementTree
 
+from generate_scenario_aliases import SCENARIO_ALIASES
+
 
 ROOT = Path(__file__).resolve().parent
 MUSIC_PLAN_PATH = ROOT / "MEDIA_INTEGRATION_PLAN.json"
@@ -120,7 +122,13 @@ def generate(check: bool) -> None:
                 destination.write_bytes(content)
 
     existing = set(MEDIA_DIRECTORY.glob("*.xml")) if MEDIA_DIRECTORY.is_dir() else set()
-    unexpected = sorted(existing - expected_paths)
+    # Aliases are byte-for-byte copies checked by generate_scenario_aliases.py.
+    alias_paths = {
+        MEDIA_DIRECTORY / f"{alias}.xml"
+        for source, alias in SCENARIO_ALIASES.items()
+        if MEDIA_DIRECTORY / f"{source}.xml" in expected_paths
+    }
+    unexpected = sorted(existing - expected_paths - alias_paths)
     if unexpected:
         raise ValueError(f"Unexpected native media companions: {unexpected}")
     if check and changed:

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<media_localization version="1" language="pt-BR">
+    <message uid="intro">
+        <speech filename="RC13_13B_Briefing_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_B_URB_MUSIC_R01.wav" />
+    </message>
+    <message uid="corruption">
+        <speech filename="RC13_13E01_Corruption_History_PTBR_G01.wav" />
+    </message>
+    <message uid="corruption solved">
+        <speech filename="RC13_13E02_Corruption_Reduced_PTBR_G01.wav" />
+    </message>
+    <message uid="patrican event">
+        <speech filename="RC13_13E03_Entertainment_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="subsidy">
+        <speech filename="RC13_13E04_Subsidy_Ends_PTBR_G01.wav" />
+    </message>
+    <message uid="plaza">
+        <speech filename="RC13_13E05_Plaza_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="victory">
+        <speech filename="RC13_13W_Victory_Consul_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_W_PROSP_MUSIC_R01.wav" />
+    </message>
+</media_localization>

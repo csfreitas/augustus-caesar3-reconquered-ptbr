@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empire_localization version="1">
+    <city object-id="254" source="Damascus">
+        <name>Damasco</name>
+    </city>
+    <city object-id="255" source="Miletus">
+        <name>Mileto</name>
+    </city>
+    <city object-id="286" source="Tarsus">
+        <name>Tarso</name>
+    </city>
+    <city object-id="326" source="Far East">
+        <name>Extremo Oriente</name>
+    </city>
+    <city object-id="330" source="Rome">
+        <name>Roma</name>
+    </city>
+    <city object-id="337" source="Syracusae">
+        <name>Siracusa</name>
+    </city>
+</empire_localization>

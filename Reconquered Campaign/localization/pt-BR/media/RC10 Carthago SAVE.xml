@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<media_localization version="1" language="pt-BR">
+    <message uid="intro">
+        <speech filename="RC10_10B_Briefing_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_B_WAR_MUSIC_R01.wav" />
+    </message>
+    <message uid="civil war event 1">
+        <speech filename="RC10_10E01_Pharsalus_History_PTBR_G01.wav" />
+    </message>
+    <message uid="civil war pompei">
+        <speech filename="RC10_10E02_Pompeian_Loyalty_PTBR_G01.wav" />
+    </message>
+    <message uid="plaza">
+        <speech filename="RC10_10E03_Plaza_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="civil war caesar">
+        <speech filename="RC10_10E04_Caesar_Alliance_PTBR_G01.wav" />
+    </message>
+    <message uid="civil war caesar attack">
+        <speech filename="RC10_10E05_Caesarian_Invasion_PTBR_G01.wav" />
+    </message>
+    <message uid="wheat">
+        <speech filename="RC10_10E06_Wheat_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="caesar gives up">
+        <speech filename="RC10_10E07_Civil_War_Ends_PTBR_G01.wav" />
+    </message>
+    <message uid="lighthouse">
+        <speech filename="RC10_10E08_Lighthouse_PTBR_G01.wav" />
+    </message>
+    <message uid="victory">
+        <speech filename="RC10_10E10_Subsidy_Ends_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_W_IMPERIAL_MUSIC_R01.wav" />
+    </message>
+    <message uid="subsidy">
+        <speech filename="RC10_10W_Victory_PTBR_G01.wav" />
+    </message>
+</media_localization>

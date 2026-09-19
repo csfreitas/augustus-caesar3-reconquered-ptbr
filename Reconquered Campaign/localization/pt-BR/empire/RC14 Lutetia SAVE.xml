@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empire_localization version="1">
+    <city object-id="280" source="Rome">
+        <name>Roma</name>
+    </city>
+    <city object-id="327" source="Valencia">
+        <name>Valentia</name>
+    </city>
+</empire_localization>

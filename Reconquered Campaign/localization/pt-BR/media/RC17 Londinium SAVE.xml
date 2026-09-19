@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<media_localization version="1" language="pt-BR">
+    <message uid="intro">
+        <speech filename="RC17_17B_Briefing_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_B_FRT_MUSIC_R01.wav" />
+    </message>
+    <message uid="Gladiator revolts">
+        <speech filename="RC17_17E01_Gladiator_Revolts_PTBR_G01.wav" />
+    </message>
+    <message uid="Revolts end">
+        <speech filename="RC17_17E02_Revolts_End_PTBR_G01.wav" />
+    </message>
+    <message uid="subsidy">
+        <speech filename="RC17_17E03_Subsidy_Ends_PTBR_G01.wav" />
+    </message>
+    <message uid="Iceni uprisings">
+        <speech filename="RC17_17E04_Iceni_Uprising_PTBR_G01.wav" />
+    </message>
+    <message uid="Boudica dies">
+        <speech filename="RC17_17E05_Boudica_Defeated_History_PTBR_G01.wav" />
+    </message>
+    <message uid="hint to build forts">
+        <speech filename="RC17_17E06_Mounting_Unrest_History_PTBR_G01.wav" />
+    </message>
+    <message uid="plaza">
+        <speech filename="RC17_17E07_Plaza_Unlocked_PTBR_G01.wav" />
+    </message>
+    <message uid="oil alternatives">
+        <speech filename="RC17_17E08_Local_Oil_PTBR_G01.wav" />
+    </message>
+    <message uid="victory">
+        <speech filename="RC17_17W_Victory_Imperial_PTBR_G01.wav" />
+        <background_music filename="RC_PTBR_W_IMPERIAL_MUSIC_R01.wav" />
+    </message>
+</media_localization>

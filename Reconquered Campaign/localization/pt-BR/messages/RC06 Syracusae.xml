@@ -11,23 +11,23 @@
 		Outros engenhos de torção, como diferentes tipos de catapultas, também eram populares; Alexandre, o Grande, já havia empregado numerosas máquinas desse tipo em suas conquistas. Eram caras para construir e manter, além de difíceis de transportar. Ainda assim, máquinas de cerco frequentemente acompanhavam os exércitos romanos e podiam ser vitais. Seu uso em batalhas campais existia, embora fosse menos comum. @L@L
 		Outras armas eram construídas no próprio local do cerco: escadas, torres, rampas de terra, aríetes e estruturas de proteção. Muitas recebiam cobertura de couro cru para reduzir o risco de incêndio. Uma torre de cerco também podia servir como plataforma elevada para arqueiros e outros combatentes afastarem os defensores das muralhas. Somente no assalto final as torres precisavam ser encostadas diretamente às defesas inimigas. @L@L
 		
-		@G[c3 instructions icon.png]	
+		@G[c3_instructions_icon.png]
 		@H Instruções @L
 		Governador, a Segunda Guerra Púnica está em pleno curso. Roma acaba de conquistar e saquear Siracusa. Sua tarefa é reconstruir e fortificar a cidade contra os cartagineses, que certamente tentarão retomá-la. O terreno deverá ser decisivo nos próximos combates, sobretudo se você ocupar as elevações e instalar defesas de onde seus soldados possam atacar os inimigos em aproximação. @L@L
 		Não descuide da economia. Siracusa não possui terras agrícolas em abundância, mas o clima favorece o cultivo de oliveiras. Azeitonas e azeite são muito lucrativos quando comercializados em grande quantidade e constituem elementos fundamentais da culinária romana. Os estoques de azeite da República estão reduzidos; portanto, espere receber vários pedidos desse recurso. @L@L
 		Não subestime o comandante inimigo. Ele provavelmente mobilizará tudo o que puder para recuperar a cidade. @L@L
 		
 		@H Éditos @L
-		@Oil @Shortages - Com o passar do tempo, Roma solicitará grandes quantidades de azeitonas e azeite. Os preços desses produtos são mais elevados, enquanto outras mercadorias valem menos. @L@L
-		@Carthaginian @Blockade - As rotas comerciais marítimas têm baixa confiabilidade. Navios podem se perder ao adotar trajetos irregulares para evitar o bloqueio e, apesar dessas precauções, ainda podem ser capturados pelo inimigo. A construção de um farol ajudará a reduzir esses problemas. @L@L
-		@ Greek @Resistance - Anfiteatros, colônias de atores, jardins, árvores, caminhos e a maioria dos parques não estão disponíveis nesta missão. @L@L
+		@0Escassez @0de @0Azeite - Com o passar do tempo, Roma solicitará grandes quantidades de azeitonas e azeite. Os preços desses produtos são mais elevados, enquanto outras mercadorias valem menos. @L@L
+		@0Bloqueio @0Cartaginês - As rotas comerciais marítimas têm baixa confiabilidade. Navios podem se perder ao adotar trajetos irregulares para evitar o bloqueio e, apesar dessas precauções, ainda podem ser capturados pelo inimigo. A construção de um farol ajudará a reduzir esses problemas. @L@L
+		@0Resistência @0Grega - Anfiteatros, colônias de atores, jardins, árvores, caminhos e a maioria dos parques não estão disponíveis nesta missão. @L@L
 		
 		@H Informações Adicionais @L 
 		@L Há 3 pontos de invasão. Todos ficam em bordas expostas do mapa, mas nunca diretamente sobre os pontos de entrada e saída. @L@L O mapa do império está um pouco mais detalhado, embora ainda não seja abrangente. @L
 		Historicamente, você deveria começar com uma cidade já construída ou em ruínas, mas poucos jogadores apreciariam essa situação. Caberá a você erguer tudo do zero. @L
 		Para treinar e equipar legionários, será necessário construir um arsenal ligado por estrada aos quartéis, para transportar até eles as armas armazenadas. @L@L
 		@H Eventos Persistentes @L
-		O Grande Templo de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 pontos de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. Devido a limitações do jogo, os preços iniciais das mercadorias serão ajustados após o primeiro mês. @L@L@L@L
+		O Santuário de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 pontos de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. Devido a limitações do jogo, os preços iniciais das mercadorias serão ajustados após o primeiro mês. @L@L@L@L
 		</text>
     </message>
     <message uid="Blockade">
@@ -64,7 +64,7 @@
         <subtitle>Oficinas Liberadas</subtitle>
         <text> @G[c3 stills_74.png]@L 
 		@H Mensagem @L
-		O subsídio colonial terminou, e Siracusa não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @workshops. @G[workshop.png] @L
+		O subsídio colonial terminou, e Siracusa não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @0oficinas. @G[workshop.png] @L
 		@L@L@L
 		</text>
     </message>
@@ -84,7 +84,7 @@
         <subtitle>Ladrilhos e Mosaicos</subtitle>
         <text> @G[c3 stills_04.png]@L
 		@H Mensagem @L
-		Graças às generosas doações recebidas pelo novo Grande Templo de Mercúrio, renomadas guildas de artesãos abriram oficinas em nossa cidade para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
+		Graças às generosas doações recebidas pelo novo Santuário de Mercúrio, renomadas guildas de artesãos abriram oficinas em nossa cidade para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
 		@H Recompensa @L
 		Praça liberada. @G[plaza.png] @L@L
 		</text>
@@ -105,8 +105,8 @@
 		@H Mensagem @L
 		Governador, precisamos urgentemente criar mais empregos para manter nosso povo satisfeito e produtivo. Infelizmente, os recursos locais talvez não permitam que uma cadeia produtiva inteiramente local ofereça todos os postos de trabalho necessários. @L@L
 		@H Novo Objetivo Secundário @L
-		@Option @ 1 - Crie um bairro patrício para compensar o excesso de mão de obra. Uma população de 300 patrícios concederá +1 ponto de Prosperidade por mês. @L@L
-		@Option @ 2 - Transforme ferro e madeira importados em armas e móveis, que poderão ser exportados e absorverão uma força de trabalho maior. Manter 12 unidades de armas e 12 de móveis nos estoques concederá +1 unidade de ferro e +1 de madeira por mês. @L@L
+		@0Opção 1 - Crie um bairro patrício para compensar o excesso de mão de obra. Uma população de 300 patrícios concederá +1 ponto de Prosperidade por mês. @L@L
+		@0Opção 2 - Transforme ferro e madeira importados em armas e móveis, que poderão ser exportados e absorverão uma força de trabalho maior. Manter 12 unidades de armas e 12 de móveis nos estoques concederá +1 unidade de ferro e +1 de madeira por mês. @L@L
 		Você pode cumprir as duas opções; elas não são mutuamente exclusivas. Não haverá mensagem de confirmação quando forem alcançadas, mas os benefícios se repetirão todos os meses. Em alguns mapas futuros, você precisará encontrar soluções criativas para esses problemas por conta própria; este objetivo existe para ensinar essas possibilidades. @L@L
 		Se a população de sua cidade estiver envelhecendo, talvez já não exista mão de obra excedente. @L@L@L
 		</text>

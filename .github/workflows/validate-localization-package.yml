@@ -26,10 +26,13 @@ jobs:
         run: >-
           python -m py_compile
           generate_native_media_overlays.py
+          generate_scenario_aliases.py
           reconquered_ptbr_native_media.py
           reconquered_ptbr_media.py
           tests/test_native_media_installer.py
       - name: Validate generated media companions
         run: python generate_native_media_overlays.py --check
+      - name: Validate canonical scenario aliases
+        run: python generate_scenario_aliases.py --check
       - name: Run tests
         run: python -m unittest discover -s tests -v

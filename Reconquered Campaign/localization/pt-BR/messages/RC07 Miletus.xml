@@ -6,11 +6,11 @@
         <text>@G[c3 stills_44.png]@L 
         @H Contexto Histórico @L
 		A região de Mileto já possuía assentamentos no Neolítico e recebeu forte presença minoica durante a Idade do Bronze. Como muitas cidades antigas, foi destruída e reconstruída diversas vezes, sob diferentes povos e poderes. Depois da Idade do Bronze, sua história envolveu gregos, persas aquemênidas, macedônios e selêucidas. @L@L
-		A incorporação romana da região não resultou da vitória na Terceira Guerra Púnica. Em 133 a.C., Átalo III, rei de Pérgamo, legou seu reino a Roma. A resistência liderada por Aristonico prolongou o conflito, e a província romana da Ásia somente foi organizada depois que a revolta foi derrotada. Mileto, que já mantinha relações com Roma, passou a integrar essa nova ordem provincial. @L@L
+		A incorporação romana da região não resultou da vitória na Terceira Guerra Púnica. Em 133 a.C., Átalo III, rei de Pergamum, legou seu reino a Roma. A resistência liderada por Aristonico prolongou o conflito, e a província romana da Ásia somente foi organizada depois que a revolta foi derrotada. Mileto, que já mantinha relações com Roma, passou a integrar essa nova ordem provincial. @L@L
 		A Ásia Menor foi disputada por muitos impérios. Gregos e persas combateram pelo domínio, mas também conviveram e trocaram costumes. Comunidades gregas permaneceram no Império Persa durante séculos, muito antes das conquistas de Alexandre, o Grande. @L@L
 		Entre os muitos sítios célebres da região está Troia, geralmente identificada com Hisarlik, na atual Turquia. Arqueólogos encontraram ali sucessivas camadas de ocupação, com muralhas de pedra, rampas e bastiões. Assim como outras cidades da Anatólia, o assentamento foi destruído, reconstruído e repovoado muitas vezes. @L@L 
 		
-		@G[c3 instructions icon.png]
+		@G[c3_instructions_icon.png]
 		@H Instruções @L
 		Governador, a República adquiriu uma nova província e necessita urgentemente de administradores competentes. Sua tarefa é transformar Mileto numa extensa metrópole, próspera graças ao acesso ao comércio e aos abundantes pesqueiros. @L@L
 		Há, contudo, sinais de conflito na Ásia Menor. Partidários de Aristonico rejeitam a autoridade romana e recrutam mercenários para atacar nossas posições. Esperamos arqueiros e infantaria leve em números modestos, mas você não deve baixar a guarda. Mileto precisará de uma guarnição defensiva para sobreviver. @L
@@ -19,8 +19,8 @@
 		Além disso, a província acaba de ser incorporada, e soldados e trabalhadores instruídos vindos de outras partes da República consideram essa designação um castigo. Você terá de oferecer incentivos para atraí-los. @L@L
 		
 		@H Éditos @L
-		@Undesirable @Assignment - Para cada forte de soldados — uma tropa de 16 homens — serão gastos 25 denários adicionais por mês em manutenção. Cada biblioteca ou academia custará 75 denários por mês. É proibido mobilizar legiões de lanceiros. @L@L
-		@Unpleasant @Climate - Mileto enfrenta contaminação do abastecimento de água devido a condições ambientais desfavoráveis. Espere receber frequentes relatos de doença e construa instalações para conter os surtos. @L@L
+		@0Designação @0Indesejada - Para cada forte de soldados — uma tropa de 16 homens — serão gastos 25 denários adicionais por mês em manutenção. Cada biblioteca ou academia custará 75 denários por mês. É proibido mobilizar legiões de lanceiros. @L@L
+		@0Clima @0Desfavorável - Mileto enfrenta contaminação do abastecimento de água devido a condições ambientais desfavoráveis. Espere receber frequentes relatos de doença e construa instalações para conter os surtos. @L@L
 		
 		@H Informações Adicionais @L
 		Neste mapa, você terá de abrigar patrícios pela primeira vez, caso ainda não o tenha feito nas missões anteriores. Avalie cuidadosamente o terreno e preserve um local adequado para um bairro de vilas. Em clima desértico, normalmente não há acesso local a argila nem areia. O risco de incêndio também aumenta mais depressa, e o alcance de fontes e reservatórios é reduzido. @L@L
@@ -28,7 +28,7 @@
 		Há 2 pontos de invasão no mapa. Como sempre, examine as bordas expostas, mas nunca diretamente os pontos de entrada e saída. @L@L
 		Historicamente, você deveria começar com uma cidade já construída ou em ruínas, mas poucos jogadores apreciariam essa situação. Caberá a você erguer tudo do zero. @L@L
 		@H Eventos Persistentes @L
-		O Grande Templo de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 pontos de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. Devido a limitações do jogo, os preços iniciais das mercadorias serão ajustados após o primeiro mês.
+		O Santuário de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 pontos de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. Devido a limitações do jogo, os preços iniciais das mercadorias serão ajustados após o primeiro mês.
 		@L@L@L@L
 		</text>
     </message>
@@ -48,7 +48,7 @@
         <subtitle>Oficinas Liberadas</subtitle>
         <text> @G[c3 stills_74.png]@L 
         @H Mensagem @L
-        O subsídio colonial terminou, e Mileto não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @workshops. @G[workshop.png] @L
+        O subsídio colonial terminou, e Mileto não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @0oficinas. @G[workshop.png] @L
         @L@L@L
         </text>
     </message>
@@ -59,7 +59,7 @@
         <text> @G[c3 stills_05.png]@L 
         @H Mensagem @L
         Governador, fomos atingidos por um desastre: muitas pessoas adoeceram de uma enfermidade desconhecida. Ela parece se espalhar pela água e provoca sintomas letais. Precisamos oferecer novas instalações para controlar a situação e nos preparar para futuros surtos. @L@L
-		Além da água contaminada, a cada dois ou três anos haverá um novo aumento dos problemas de saúde na cidade. Forneça atendimento adicional, como acesso a hospitais, ou construa mausoléus para sepultar os mortos em segurança, longe dos vivos. Cada mausoléu construído concede um pequeno benefício de saúde a toda a cidade, até o limite de 10 pequenos, 5 grandes ou uma combinação equivalente. O Grande Templo de Netuno também reduz em 50% a propagação de doenças. @L @G[Plague.png] @L@L@L@L
+		Além da água contaminada, a cada dois ou três anos haverá um novo aumento dos problemas de saúde na cidade. Forneça atendimento adicional, como acesso a hospitais, ou construa mausoléus para sepultar os mortos em segurança, longe dos vivos. Cada mausoléu construído concede um pequeno benefício de saúde a toda a cidade, até o limite de 10 pequenos, 5 grandes ou uma combinação equivalente. O Santuário de Netuno também reduz em 50% a propagação de doenças. @L @G[Plague.png] @L@L@L@L
 		</text>
 	</message>
 	
@@ -70,7 +70,7 @@
         @H Novo Desenvolvimento @L
         A cada 3 meses, 1 unidade de vinho será retirada dos armazéns, se estiver disponível, elevando ligeiramente o índice de Saúde da cidade. @G[Wine_Consumption.png] @L@L
         @H Contexto Histórico @L
-        Os romanos consumiam vinho regularmente, em geral misturado com água. O álcool e certos componentes do vinho podem inibir alguns microrganismos, mas isso não tornava toda água contaminada segura nem substituía saneamento. A expressão latina @aqua @vitae passou a designar destilados muitos séculos depois; não há base para tratar o brandy destilado como uma bebida romana comum.
+        Os romanos consumiam vinho regularmente, em geral misturado com água. O álcool e certos componentes do vinho podem inibir alguns microrganismos, mas isso não tornava toda água contaminada segura nem substituía saneamento. A expressão latina @0aqua @0vitae passou a designar destilados muitos séculos depois; não há base para tratar o brandy destilado como uma bebida romana comum.
 		@L@L@L
 		</text>
     </message>
@@ -80,7 +80,7 @@
         <subtitle>Ladrilhos e Mosaicos</subtitle>
         <text> @G[c3 stills_04.png]@L
         @H Mensagem @L
-        As generosas doações recebidas pelo novo Grande Templo de Mercúrio atraíram renomadas guildas de artesãos. Elas abriram oficinas na cidade para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
+        As generosas doações recebidas pelo novo Santuário de Mercúrio atraíram renomadas guildas de artesãos. Elas abriram oficinas na cidade para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
         @H Recompensa @L
         Praça liberada. @G[plaza.png] @L@L
         </text>

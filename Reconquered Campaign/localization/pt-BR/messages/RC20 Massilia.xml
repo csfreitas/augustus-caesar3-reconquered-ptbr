@@ -1,39 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
 <localization version="1" language="pt-BR">
     <message uid="intro">
-        <title>A Cidade-Estado de Massília</title>
+        <title>A Cidade-Estado de Massilia</title>
         <subtitle>Unidos contra Carthago</subtitle>
         <text>  @G[c3 stills_84.png]@L 
 		@H Contexto Histórico @L
-		Massília, a atual Marselha, foi fundada por volta de 600 a.C. por gregos fócios da Jônia. Tornou-se uma pólis autônoma favorecida por sua excelente posição comercial. Gregos e povos celtas próximos mantiveram comércio, alianças e conflitos; algumas comunidades adotaram elementos da cultura grega sem abandonar necessariamente suas próprias identidades. @L@L
-		Massília aliou-se a Roma antes e durante as Guerras Púnicas e prestou importante apoio naval e comercial contra Carthago. Essa aliança não a transformou imediatamente numa cidade romana nem apagou suas raízes gregas. A cidade conservou autonomia e instituições helênicas por séculos. Em 49 a.C., apoiou Pompeu na guerra civil, foi sitiada por forças cesarianas e perdeu grande parte de seus territórios e privilégios, embora preservasse identidade grega e alguns direitos. A missão transpõe a romanização para a Segunda Guerra Púnica por razões de jogabilidade. @L@L
+		Massilia, a atual Marselha, foi fundada por volta de 600 a.C. por gregos fócios da Jônia. Tornou-se uma pólis autônoma favorecida por sua excelente posição comercial. Gregos e povos celtas próximos mantiveram comércio, alianças e conflitos; algumas comunidades adotaram elementos da cultura grega sem abandonar necessariamente suas próprias identidades. @L@L
+		Massilia aliou-se a Roma antes e durante as Guerras Púnicas e prestou importante apoio naval e comercial contra Carthago. Essa aliança não a transformou imediatamente numa cidade romana nem apagou suas raízes gregas. A cidade conservou autonomia e instituições helênicas por séculos. Em 49 a.C., apoiou Pompeu na guerra civil, foi sitiada por forças cesarianas e perdeu grande parte de seus territórios e privilégios, embora preservasse identidade grega e alguns direitos. A missão transpõe a romanização para a Segunda Guerra Púnica por razões de jogabilidade. @L@L
 		
-		@G[c3 instructions icon.png]
+		@G[c3_instructions_icon.png]
 		@H Instruções @L
 		Governador, uma missão importante foi confiada à sua família. Seus antepassados de linhagem nobre supervisionaram inúmeras colônias e governaram com competência, dignidade e habilidade militar dignas de verdadeiros romanos. Não decepcione o Senado nesta tarefa final e monumental. @L@L
-		Viaje para Massília, cidade-Estado grega na costa mediterrânica. Seus magistrados aceitaram uma aliança oficial com nossa República na luta comum contra a ameaça cartaginesa. A cidade não era governada simplesmente por “tiranos”; possuía instituições oligárquicas próprias. @L@L
-		Assuma a administração e prepare uma possível transição de Massília para colônia romana. @L@L
+		Viaje para Massilia, cidade-Estado grega na costa mediterrânica. Seus magistrados aceitaram uma aliança oficial com nossa República na luta comum contra a ameaça cartaginesa. A cidade não era governada simplesmente por “tiranos”; possuía instituições oligárquicas próprias. @L@L
+		Assuma a administração e prepare uma possível transição de Massilia para colônia romana. @L@L
 		Os gregos da Magna Grécia adaptaram-se de maneiras variadas à cidadania e ao domínio romano. Esperamos que os massiliotas também possam integrar-se pacificamente. @L@L
 		Respeite os costumes locais e proponha a romanização somente quando não ofender a população. Muitos gregos consideram repugnantes nossos jogos com animais e gladiadores. Impor esse costume será especialmente difícil, mas o sucesso representará um marco de integração e, dentro da lógica da missão, permitirá conceder cidadania romana aos massiliotas. @L@L
-		Massília não possui minérios nem pedra utilizável, mas suas terras férteis permitem cultivar videiras e oliveiras, sobretudo nas ilhas próximas à costa. A economia também dependerá de tijolos e cerâmica exportados para outras cidades. @L@L
-		Processe matérias-primas importadas, como ferro e madeira, transformando-as em produtos acabados para exportação. Isso será necessário porque Massília é aliada e não podemos tributar seus habitantes enquanto não adotarem a nova condição política. @L@L
+		Massilia não possui minérios nem pedra utilizável, mas suas terras férteis permitem cultivar videiras e oliveiras, sobretudo nas ilhas próximas à costa. A economia também dependerá de tijolos e cerâmica exportados para outras cidades. @L@L
+		Processe matérias-primas importadas, como ferro e madeira, transformando-as em produtos acabados para exportação. Isso será necessário porque Massilia é aliada e não podemos tributar seus habitantes enquanto não adotarem a nova condição política. @L@L
 		A cidade possui poucas fontes de água potável. Procure nascentes nas encostas ou construa perto da costa para obter abastecimento. Caso contrário, terá de implorar a Netuno que sacie a sede da população. @L@L
-		A Segunda Guerra Púnica colocou Massília ao lado de Roma. Espere incursões e ataques cartagineses e mantenha guarnições suficientes. @L@L
-		Boa sorte, governador. Que os deuses acompanhem sua mão firme enquanto conduz Massília à grandeza. @L@L
+		A Segunda Guerra Púnica colocou Massilia ao lado de Roma. Espere incursões e ataques cartagineses e mantenha guarnições suficientes. @L@L
+		Boa sorte, governador. Que os deuses acompanhem sua mão firme enquanto conduz Massilia à grandeza. @L@L
 		
-		@H Éditos @L@
-		@ Cidade-Estado @Grega - Covas de leões, escolas de gladiadores, arenas, Coliseu, fóruns e estátuas estão indisponíveis. Ao atingir 12.000 habitantes, Massília perderá sua autonomia na lógica do cenário, liberando parte desses edifícios. Historicamente, população não determinava automaticamente esse status. @L@L
-		 @Missão @Final - Espere restrições de todos os tipos e atividade militar crescente. Como esta é a última missão, recomenda-se construir o Grande Templo de Marte, todos os 10 fortes e defesas pesadas. @L@L
-		@ Panteão @ Helênico - Para cada 5 pequenos templos construídos, você pagará 30 denários adicionais por mês em despesas diversas. Alcance 3.000 habitantes para avançar nessa sequência e liberar o próximo objetivo. @L@L
+		@H Éditos @L
+		@0Cidade-Estado @0Grega - Casas de leões, escolas de gladiadores, arenas, Coliseu, fóruns e estátuas estão indisponíveis. Ao atingir 12.000 habitantes, Massilia perderá sua autonomia na lógica do cenário, liberando parte desses edifícios. Historicamente, população não determinava automaticamente esse status. @L@L
+		 @0Missão @0Final - Espere restrições de todos os tipos e atividade militar crescente. Como esta é a última missão, recomenda-se construir o Santuário de Marte, todos os 10 fortes e defesas pesadas. @L@L
+		@0Panteão @0Helênico - Para cada 5 pequenos templos construídos, você pagará 30 denários adicionais por mês em despesas diversas. Alcance 3.000 habitantes para avançar nessa sequência e liberar o próximo objetivo. @L@L
 		
 		@H Informações Adicionais @L 
 		Trechos de estrada na costa indicam possíveis locais para pontes. @L@L
 		Muitas importações serão necessárias; planeje o centro comercial para comportá-las. Mármore e pedra começam acessíveis, mas ficarão muito mais caros. Talvez seja necessário evitar alguns monumentos e importar cedo para impedir que os custos dos pequenos templos saiam de controle no meio da missão. @L@L
 		O Apreço recebido por pedidos concluídos será muito menor. Administre suas economias para oferecer presentes. @L@L
-		Planeje a expansão com cuidado. Algumas áreas precisarão da “água” concedida pelo Grande Templo de Netuno para receber moradias. @L@L
+		Planeje a expansão com cuidado. Algumas áreas precisarão da “água” concedida pelo Santuário de Netuno para receber moradias. @L@L
 		Roma ainda é uma república. Interprete os pedidos de “César” como determinações do Senado Romano. @L@L
 		@H Eventos Persistentes @L 
-		O Grande Templo de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. @L@L
+		O Santuário de Mercúrio libera a Praça. O subsídio concede 100 denários por mês até a cidade atingir 10 de Prosperidade. As oficinas somente são liberadas depois do fim do subsídio. @L@L
 		Devido a limitações do jogo, os preços iniciais serão ajustados depois do primeiro mês. @L@L@L@L
 		</text>
     </message>
@@ -43,9 +43,9 @@
         <subtitle>Ampliação do Comércio</subtitle>
         <text>  @G[c3 stills_141.png]@L 
 		@H Mensagem @L
-		Governador, outras cidades da República hesitam em oferecer todo o seu potencial comercial a uma cidade grega. Se erguermos templos aos deuses romanos, poderemos convencê-las de que Massília avança rumo à integração. @L@L
+		Governador, outras cidades da República hesitam em oferecer todo o seu potencial comercial a uma cidade grega. Se erguermos templos aos deuses romanos, poderemos convencê-las de que Massilia avança rumo à integração. @L@L
 		@G[decorative objetive .png] @H Novo Objetivo @L
-		Construa e mantenha funcionários em 5 templos grandes e 2 ninfeus para aumentar várias @cotas @comerciais e liberar @grandes @templos. @G[large_temples.png] @G[decorative objetive .png] @L@L@L@L
+		Construa e mantenha funcionários em 5 templos grandes e 2 ninfeus para aumentar várias @0cotas @0comerciais e liberar @0santuários. @G[large_temples.png] @G[decorative objetive .png] @L@L@L@L
 		</text>
     </message>
 
@@ -56,7 +56,7 @@
 		@H Mensagem @L
 		Governador, nossos parceiros comerciais na República reconheceram a dedicação da cidade à integração cultural romana.
 		@H Recompensa @L
-		As cotas de vários produtos aumentaram. Grandes templos agora podem ser construídos. @G[temples_done.png] @L@L@L
+		As cotas de vários produtos aumentaram. Santuários agora podem ser construídos. @G[temples_done.png] @L@L@L
 		</text>
     </message>
 
@@ -69,8 +69,8 @@
 		@G[decorative objetive .png] @H Novo Desenvolvimento @L
 		Armazene peixes. A cada 6 meses, 64 unidades serão convertidas em 700 denários. O evento pode repetir-se. @G[fish_ware.png] @G[decorative objetive .png] @L@L
 		@H Contexto Histórico @L
-		O garum foi um condimento real e amplamente utilizado no mundo romano. A seguinte receita aparece numa compilação agrícola bizantina do século X, a @Geoponica, baseada em materiais anteriores: @L@L
-		O chamado @liquamen é preparado assim: colocam-se vísceras de peixe num recipiente e acrescenta-se sal. Peixes pequenos — como aterinas, tainhas pequenas, @maenae, @lycostomi ou quaisquer outros — são salgados do mesmo modo. A mistura é deixada ao sol e revolvida com frequência. Depois de curada pelo calor, extrai-se o garum. Coloca-se um pequeno cesto de trama fechada dentro do recipiente cheio de peixes; o líquido escorre para o cesto. O produto filtrado é chamado @liquamen, e o resíduo restante transforma-se em @allec. @L@L
+		O garum foi um condimento real e amplamente utilizado no mundo romano. A seguinte receita aparece numa compilação agrícola bizantina do século X, a @0Geoponica, baseada em materiais anteriores: @L@L
+		O chamado @0liquamen é preparado assim: colocam-se vísceras de peixe num recipiente e acrescenta-se sal. Peixes pequenos — como aterinas, tainhas pequenas, @0maenae, @0lycostomi ou quaisquer outros — são salgados do mesmo modo. A mistura é deixada ao sol e revolvida com frequência. Depois de curada pelo calor, extrai-se o garum. Coloca-se um pequeno cesto de trama fechada dentro do recipiente cheio de peixes; o líquido escorre para o cesto. O produto filtrado é chamado @0liquamen, e o resíduo restante transforma-se em @0allec. @L@L
 		Há evidências de que gregos produziam molhos fermentados de peixe antes do domínio romano. Outras culturas desenvolveram condimentos semelhantes, inclusive no Extremo Oriente. @L@L
 		Hoje, produtos comparáveis são encontrados sobretudo entre os molhos de peixe de várias culinárias asiáticas, embora tradições mediterrânicas também tenham sobrevivido ou ressurgido. @L@L@L@L
 		</text>
@@ -94,8 +94,8 @@
 		@H Mensagem @L
 		Governador, precisamos tomar uma decisão. Produzimos vinho em abundância, mas os futuros patrícios exigirão variedades importadas. Uma rota com Brundisium forneceria novos tipos de vinho, porém exigiria subornar seus oficiais. @L@L
 		@G[decorative objetive .png] @H Novo Desenvolvimento @L
-		@Option @ 1 - Construa uma academia dentro de um ano para liberar a rota e acrescentar permanentemente 150 denários por mês às despesas. A decisão ocorre cedo de propósito: você reduzirá o crescimento inicial em troca de benefício de longo prazo. @L@L
-		@Option @ 2 - Não construa uma academia dentro de um ano. Nada acontecerá, e ainda será possível construí-la depois sem ativar o evento. @G[second_wine.png] @G[decorative objetive .png] @L@L@L
+		@0Opção @0 1 - Construa uma academia dentro de um ano para liberar a rota e acrescentar permanentemente 150 denários por mês às despesas. A decisão ocorre cedo de propósito: você reduzirá o crescimento inicial em troca de benefício de longo prazo. @L@L
+		@0Opção @0 2 - Não construa uma academia dentro de um ano. Nada acontecerá, e ainda será possível construí-la depois sem ativar o evento. @G[second_wine.png] @G[decorative objetive .png] @L@L@L
 		</text>
     </message>
 
@@ -104,7 +104,7 @@
         <subtitle>Ladrilhos e Mosaicos</subtitle>
         <text> @G[c3 stills_04.png]@L
 		@H Mensagem @L
-		As generosas doações recebidas pelo novo Grande Templo de Mercúrio atraíram renomadas guildas de artesãos, que abriram oficinas para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
+		As generosas doações recebidas pelo novo Santuário de Mercúrio atraíram renomadas guildas de artesãos, que abriram oficinas para produzir belos ladrilhos e mosaicos destinados aos espaços públicos. @L@L
 		@H Recompensa @L
 		Praça liberada. @G[plaza.png] @L@L
 		</text>
@@ -115,7 +115,7 @@
         <subtitle>Oficinas Liberadas</subtitle>
         <text> @G[c3 stills_74.png]@L 
 		@H Mensagem @L
-		O subsídio colonial terminou, e Massília não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @workshops. @G[workshop.png] @L
+		O subsídio colonial terminou, e Massilia não receberá mais 100 denários por mês. Em compensação, agora você pode autorizar a construção de @0oficinas. @G[workshop.png] @L
 		@L@L@L
 		</text>
     </message>
@@ -139,7 +139,7 @@
         <subtitle>Você é Vitorioso</subtitle>
         <text> @G[c3 stills_129.png]@L @L 
 		@H Parabéns por Concluir a Campanha Reconquered. @L
-		Você triunfou mais uma vez. Das praias ensolaradas da África às regiões mais selvagens da Gália, sua habilidade e determinação ergueram cidades esplêndidas. O mundo conhecido agora está aos seus pés. Ave, governador! @Victor @Imperator! @L@L
+		Você triunfou mais uma vez. Das praias ensolaradas da África às regiões mais selvagens da Gália, sua habilidade e determinação ergueram cidades esplêndidas. O mundo conhecido agora está aos seus pés. Ave, governador! @0Victor @0Imperator! @L@L
 		Se gostou da campanha, publique um comentário e deixe uma avaliação no Caesar 3 Heaven. Ela não foi criada para ser extremamente difícil, mas, comparada à campanha original, deverá prepará-lo para mapas personalizados muito difíceis encontrados no Caesar 3 Heaven. @L@L
 		</text>
     </message>
@@ -152,7 +152,7 @@
 		@H Mensagem @L
 		Governador, os escultores locais produzem estátuas de qualidade impressionante. Podemos usá-las para aumentar o prestígio da cidade, mas financiar esse trabalho será caro. @L@L
 		@H Novo Objetivo Secundário @L
-		Se armazenar @ 32 @unidades @de @pedra, @ 32 @unidades @de @mármore e @ 5000 @denários, você @liberará @estátuas de todos os tipos. Os recursos serão consumidos, e uma manutenção permanente de @ 150 @denários @por @mês será acrescentada às despesas diversas. @L@L
+		Se armazenar @0 32 @0unidades @0de @0pedra, @0 32 @0unidades @0de @0mármore e @0 5000 @0denários, você @0liberará @0estátuas de todos os tipos. Os recursos serão consumidos, e uma manutenção permanente de @0 150 @0denários @0por @0mês será acrescentada às despesas diversas. @L@L
 		@G[decorative objetive .png]
 		@L@L
 		</text>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empire_localization version="1">
+    <city object-id="254" source="Tarsus">
+        <name>Tarso</name>
+    </city>
+    <city object-id="255" source="Miletus">
+        <name>Mileto</name>
+    </city>
+    <city object-id="335" source="Rome">
+        <name>Roma</name>
+    </city>
+    <city object-id="342" source="Syracusae">
+        <name>Siracusa</name>
+    </city>
+</empire_localization>

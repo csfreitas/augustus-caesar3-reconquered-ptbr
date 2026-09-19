@@ -31,6 +31,39 @@ Não edite manualmente os 20 arquivos em `Reconquered Campaign/localization/pt-B
 ```sh
 python3 generate_native_media_overlays.py
 python3 generate_native_media_overlays.py --check
+python3 generate_scenario_aliases.py
+python3 generate_scenario_aliases.py --check
 ```
 
 Cada UID precisa existir no overlay textual correspondente. Somente nomes simples de arquivo são aceitos; diretórios, prefixos de drive e travessia de caminho são proibidos. A mídia deve ser criação própria ou possuir autorização de distribuição comprovável.
+
+Os sete aliases de cenário em `messages/` e `media/` também são gerados. Edite o
+overlay de origem e regenere os aliases; não mantenha traduções independentes das
+mesmas mensagens. `SCENARIO_ALIASES` documenta apenas as diferenças de nomes da
+campanha suportada, sem mudar arquivos canônicos ou lógica no Augustus.
+
+Os seis aliases imperiais `SAVE` também são cópias dos overlays de origem. O
+overlay imperial de RC13 já usa a chave `Valencia` diretamente. Preserve IDs e
+nomes-fonte de `empire/`: somente o conteúdo de `<name>` é apresentação traduzida.
+
+## Destaques nos textos
+
+Use `@0palavra` para destacar palavras, inclusive termos latinos. Uma quantidade
+destacada precisa de espaço, por exemplo `@0 32`: `@032` seria interpretado como
+ID de link e consumiria o número. Preserve os comandos `@H`, `@L`, `@P`, `@G26`
+e `@G[nome.png]`. Prefixos como `@Honorum` ou `@Geoponica` colidem com comandos
+de título/imagem; use `@0Honorum` e `@0Geoponica`.
+
+Os testes de mensagens detectam essas colisões, resíduos ingleses conhecidos e
+a referência antiga incorreta ao ícone de instruções. Não são um classificador
+completo de idioma nem substituem a revisão linguística.
+
+## Metadados de apresentação
+
+Edite `Reconquered Campaign/localization/pt-BR/campaign.xml` para títulos, nomes e
+descrições. Preserve literalmente as chaves `first-scenario` e `file`, inclusive
+os sufixos `SAVE` e a grafia `RC13 Valencia`: não são texto a traduzir. Nomes
+exibidos podem usar a terminologia aprovada sem alterar essas identidades.
+
+Execute `python3 -m unittest discover -s tests -v` e os dois geradores com `--check`.
+Os testes estruturais não substituem inspeção das fontes, layout e contexto em jogo.

@@ -11,7 +11,10 @@ Este roteiro valida a localização PT-BR sem exigir que cada participante concl
 - não publique mapas, XMLs canônicos, músicas, vozes, imagens ou outros assets originais do Reconquered/Caesar III;
 - não use nem anexe conteúdo obtido em canais privados de Tester.
 
-Para a `v1.0.0-rc.2`, use o instalador documentado no [README](README.md). A rota de mídia nativa é experimental e requer um build compatível da branch correspondente do fork do Augustus.
+Para a `v1.0.0-rc.3`, use a rota nativa documentada no [README](README.md) e o
+Claudius `26e050892` ou build com suporte equivalente. Não basta a PR #1893
+isolada. Instalações RC1/RC2 devem ser removidas com seus próprios instaladores
+antes da migração; preserve todos os backups.
 
 ## 2. Verificação básica
 
